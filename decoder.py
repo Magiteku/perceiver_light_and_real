@@ -1,8 +1,8 @@
 import torch
 import torch.nn as nn
 import math
-from perceiver.attention import MultiHeadLatentAttention
-from perceiver.layers import FeedForward
+from attention import MultiHeadLatentAttention
+from layers import FeedForward
 
 class PerceiverDecoder(nn.Module):
     """
