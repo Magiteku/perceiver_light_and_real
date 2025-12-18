@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
-from perceiver.attention import MultiHeadLatentAttention, NativeSparseCrossAttention
-from perceiver.layers import FeedForward, DropPath
+from attention import MultiHeadLatentAttention, NativeSparseCrossAttention
+from layers import FeedForward, DropPath
 
 class PerceiverBlock(nn.Module):
     def __init__(self, latent_dim, input_dim, num_self_attn_layers, heads, dropout, drop_path_rates):
