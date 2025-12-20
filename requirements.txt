@@ -6,3 +6,4 @@ trimesh
 av
 transformers
 Pillow
+torchcodec
